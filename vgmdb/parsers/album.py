@@ -109,11 +109,11 @@ def _parse_album_info(soup_info):
 		                  'Arranger':'arrangers',
 		                  'Performer':'performers',
 		                  'Lyricist':'lyricists',
-											'Vocals':'vocals',
-											'All Composed by':'composers',
-											'All Music Composed by':'composers',
-											'All Arranged by':'arrangers',
-											'All Music Arranged by':'arrangers'}
+		                  'Vocals':'vocals',
+		                  'All Composed by':'composers',
+		                  'All Music Composed by':'composers',
+		                  'All Arranged by':'arrangers',
+		                  'All Music Arranged by':'arrangers'}
 		organization_names = ["Publisher", "Distributor",
 		                      "Retailer", "Exclusive Retailer",
 		                      "Manufacturer", "Label"]
