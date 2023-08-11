@@ -242,7 +242,7 @@ def _parse_album_info(soup_info):
 							role = role.strip()
 							if info is not None:
 								addOrganization(info, role.lower())
-							info = None
+						info = None
 			if info is not None:
 				addOrganization(info, role)
 		elif name in names_single.keys():
